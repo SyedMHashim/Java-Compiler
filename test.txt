@@ -1,4 +1,0 @@
-String s[]={"Hello ","World!"};
-System.out.print(s[0]);
-System.out.println(s[1]);
-System.out.print("Java Compiler made by Hashim");
