@@ -1,0 +1,13 @@
+#!/usr/bin/env python
+
+import click
+from compiler.interpreter import interpret
+
+
+@click.command()
+def console():
+    interpret()
+
+
+if __name__ == "__main__":
+    console()
